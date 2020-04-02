@@ -11,5 +11,4 @@ function hog(){
 }
 console.hog = hog
 
-
 ReactDOM.render(<App />, document.getElementById('root'));
