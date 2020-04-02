@@ -6,7 +6,7 @@ import './index.css';
 
 function hog(){
     console.log("🐷🐷🐷🐷🐷🐷🐷🐷Oink Oink🐷🐷🐷🐷🐷🐷🐷🐷")
-    console.log(Array.from(arguments).join(" "))
+    console.log(arguments[0])
     console.log("🐷🐷🐷🐷🐷🐷🐷🐷Oink Oink🐷🐷🐷🐷🐷🐷🐷🐷")
 }
 console.hog = hog
