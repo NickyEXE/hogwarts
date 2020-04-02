@@ -6,6 +6,7 @@ import HelloWorld from "./HelloWorld";
 
 class App extends Component {
   render() {
+    console.hog(hogs)
     return (
       <div className="App">
         <Nav />
