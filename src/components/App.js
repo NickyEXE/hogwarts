@@ -28,10 +28,10 @@ class App extends Component {
   sortedHogs = (hogs) => {
     if (this.state.sortByWeight){
       const sortByWeight = (hogA, hogB) => hogB.weight - hogA.weight
-      return hogs.sort(sortByWeight)
+      return [...hogs.sort(sortByWeight)]
     }
     else {
-      return hogs.sort((hogA, hogB) => hogA.name.localeCompare(hogB.name))
+      return [...hogs.sort((hogA, hogB) => hogA.name.localeCompare(hogB.name))]
     }
   }
 
